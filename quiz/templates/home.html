@@ -1,0 +1,8 @@
+<h3>{{ person.toggle_name }}<h3>
+<br>
+<form method="post">
+	{% csrf_token %}
+	<input type="text" name="first">
+	<input type="text" name="last">
+	<button type="submit">SUBMIT</button>
+</form>
